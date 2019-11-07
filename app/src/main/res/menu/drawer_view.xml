@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:icon="@drawable/inventory2"
+            android:iconTint="@android:color/black"
+            android:id="@+id/nav_zero_fragment"
+            android:title="@string/string_inventory" />
+        <item
+            android:icon="@drawable/dashboard2"
+            android:id="@+id/nav_first_fragment"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/withme"
+            android:title="@string/string_withme" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/notifications"
+            android:title="@string/string_notification" />
+        <item
+            android:id="@+id/nav_fourth_fragment"
+            android:icon="@drawable/signout"
+            android:title="Sign Out" />
+
+
+    </group>
+    <item android:title="Admin Section">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_fifth_fragment"
+                    android:icon="@drawable/addinventory"
+                    android:title="@string/string_add_inventory" />
+                <item
+                    android:id="@+id/nav_sixth_fragment"
+                    android:icon="@drawable/send_notifications"
+                    android:title="Send Notifications" />
+                <item
+                    android:id="@+id/nav_seventh_fragment"
+                    android:icon="@drawable/reportdamage"
+                    android:title="Damage List" />
+
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

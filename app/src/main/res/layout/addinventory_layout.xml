@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp">
+
+        <TextView
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/alegreya_sans_sc_bold"
+            android:text="Admin Section"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_below="@+id/admin"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/alegreya_sans_sc_bold"
+            android:id="@+id/inventory_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Inventory"
+            android:clickable="false"
+            android:textSize="36sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginHorizontal="14dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:id="@+id/name_editText"
+            android:padding="12dp"
+            android:background="@drawable/rectangle"
+            android:layout_marginVertical="10dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginVertical="10dp"
+            android:maxLines="1"
+            android:inputType="textMultiLine|textAutoCorrect|textCapSentences"
+            android:id="@+id/desc_editText"
+            android:padding="12dp"
+            android:background="@drawable/rectangle"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:inputType="number"
+            android:layout_marginVertical="10dp"
+            android:maxLines="1"
+            android:id="@+id/count_editText"
+            android:padding="12dp"
+            android:background="@drawable/rectangle"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/alegreya_sans_sc_bold"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

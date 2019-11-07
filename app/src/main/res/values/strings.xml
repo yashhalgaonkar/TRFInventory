@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TRF Inventory</string>
+    <string name="string_inventory">Inventory</string>
+    <string name="string_withme">With Me</string>
+    <string name="string_details">Details</string>
+    <string name="string_takeout">Take Out</string>
+    <string name="string_search_here">Search Here</string>
+    <string name="string_notification">Notifications</string>
+    <string name="string_add_inventory">Add Inventory</string>
+    <string name="string_add_user">Add User</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "153356931873",
+    "firebase_url": "https://trf-inventory.firebaseio.com",
+    "project_id": "trf-inventory",
+    "storage_bucket": "trf-inventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153356931873:android:add689f92d4098f6aee460",
+        "android_client_info": {
+          "package_name": "com.trf.trfinventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153356931873-jmgb1n1oqalf9cjuppdedphd8b1nuaj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trf.trfinventory",
+            "certificate_hash": "bf376e0843fef2c4accbcc82b0f5009c8c10f9e3"
+          }
+        },
+        {
+          "client_id": "153356931873-uljt6g514bnq4rt7jqto2n4eqs266ar2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvyVJE9E9rT7qrl9f9dOZHzJMC-u7jFMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153356931873-uljt6g514bnq4rt7jqto2n4eqs266ar2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
