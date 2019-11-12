@@ -22,7 +22,7 @@
             android:layout_gravity="center"
             android:src="@drawable/trflogo6"
             android:layout_width="150dp"
-            android:layout_height="150dp"/>
+            android:layout_height="100dp"/>
 
         <TextView
             android:id="@+id/trf_tv"
@@ -33,19 +33,19 @@
             android:layout_height="wrap_content"
             android:text="The Robotics Forum"
             android:fontFamily="@font/alegreya_sans_sc_bold"
-            android:textSize="24dp"
+            android:textSize="28dp"
             android:textColor="@android:color/white"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
 
         <EditText
-            android:textColorHint="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
             android:layout_below="@+id/trf_tv"
             android:id="@+id/username"
             android:inputType="textEmailAddress"
             android:textColor="@android:color/white"
             android:layout_marginTop="14dp"
-            android:textSize="24dp"
+            android:textSize="20dp"
             android:layout_centerHorizontal="true"
             android:hint="Email"
             android:layout_width="match_parent"
@@ -53,11 +53,11 @@
 
 
         <EditText
-            android:textColorHint="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
             android:gravity="left"
             android:layout_marginTop="14dp"
             android:layout_below="@+id/username"
-            android:textSize="24dp"
+            android:textSize="20dp"
             android:layout_centerHorizontal="true"
             android:hint="Password"
             android:id="@+id/password"
@@ -68,7 +68,7 @@
             android:fontFamily="@font/alegreya_sans_sc_bold"
             android:id="@+id/login"
             android:background="@drawable/rectangle"
-            android:textSize="24dp"
+            android:textSize="20dp"
             android:textColor="@android:color/white"
             android:text="Sign In"
             android:layout_marginTop="44dp"
